@@ -30,8 +30,18 @@ end
 
 def play(ar)
   puts "Please enter a song name or number:"
-  song_number = gets.chomp
-  if song_number.is_a? 
+  song_or_num = gets.chomp
+  ar.each_with_index|song, index|
+  if song_or_num.is_a? String && song_or_num == song
+    puts "Playing #{song}"
+    elsif song_or_num && song_or_num == index+1
+    puts "Playing #{song}"
+  else
+    puts "Invalid input, please try again"
+  end
+end
+      
+      
 end
 #puts "Enter your name:"
 #users_name = gets.chomp 
