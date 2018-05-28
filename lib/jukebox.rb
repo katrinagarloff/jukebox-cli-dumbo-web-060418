@@ -35,7 +35,7 @@ def play(ar)
   ar.each_with_index do |song, index|
   if song_or_num.is_a?(String) && song_or_num == song
     puts "Playing #{song}"
-    elsif song_or_num == index
+    elsif song_or_num == index+1.to_i
     puts "Playing #{song}"
   end
   end
