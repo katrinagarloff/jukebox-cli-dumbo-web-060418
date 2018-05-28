@@ -36,9 +36,9 @@ def play(ar)
     puts "Playing #{song}"
     elsif song_or_num && song_or_num == index+1
     puts "Playing #{song}"
+  end
   else
     puts "Invalid input, please try again"
-  end
 end
       
       
