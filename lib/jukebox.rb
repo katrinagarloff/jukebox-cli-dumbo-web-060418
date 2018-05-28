@@ -23,7 +23,9 @@ def help
 end
 
 def list(ar)
-  ar.each_with_index do |
+  ar.each_with_index do |song, index| 
+    puts "#{index+1}. #{song}"
+  end
 end
 #puts "Enter your name:"
 #users_name = gets.chomp 
