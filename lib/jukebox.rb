@@ -52,6 +52,8 @@ end
 
 def run(ar)
   help
+  puts "Please enter a command:"
+  users_input = gets.chomp
   while users_input != "exit"
   puts "Please enter a command:"
   users_input = gets.chomp
