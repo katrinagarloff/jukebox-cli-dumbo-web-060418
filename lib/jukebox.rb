@@ -33,10 +33,10 @@ def play(ar)
   song_or_num = gets.chomp
   valid_input = nil
   ar.each_with_index do |song, index|
-  if song_or_num.is_a?(String) && song_or_num == song
+  if song_or_num == song
     puts "Playing #{song}"
     valid_input = 1
-    elsif song_or_num == (index+1).to_i
+    elsif song_or_num.to_i == index+1
     puts "Playing #{song}"
   valid_input = 1
   end
