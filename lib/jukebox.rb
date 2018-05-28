@@ -36,7 +36,7 @@ def play(ar)
   if song_or_num.is_a?(String) && song_or_num == song
     puts "Playing #{song}"
     valid_input = 1
-    elsif song_or_num == index+1.to_i
+    elsif song_or_num == (index+1).to_i
     puts "Playing #{song}"
   valid_input = 1
   end
