@@ -22,8 +22,8 @@ def help
 - exit : exits this program"
 end
 
-def list
-  
+def list(ar)
+  ar.each_with_index do |
 end
 #puts "Enter your name:"
 #users_name = gets.chomp 
