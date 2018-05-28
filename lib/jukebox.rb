@@ -32,7 +32,7 @@ def play(ar)
   puts "Please enter a song name or number:"
   song_or_num = gets.chomp
   ar.each_with_index do |song, index|
-  if song_or_num.is_a? String && song_or_num == song
+  if song_or_num.is_a?(String) && song_or_num == song
     puts "Playing #{song}"
     elsif song_or_num && song_or_num == index+1
     puts "Playing #{song}"
