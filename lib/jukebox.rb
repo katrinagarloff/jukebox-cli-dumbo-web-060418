@@ -52,10 +52,10 @@ end
 
 def run(ar)
   help
+  if users_input != "exit"
   puts "Please enter a command:"
   users_input = gets.chomp
-  if users_input != "exit"
-    
+    case 
 end
       
       
