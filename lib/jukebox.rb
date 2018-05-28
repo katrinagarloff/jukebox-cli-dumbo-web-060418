@@ -67,7 +67,7 @@ def run(ar)
           when "exit"
             exit_jukebox
           end
-          break_if 
+          break if users_input == "exit"
         end
 end
       
