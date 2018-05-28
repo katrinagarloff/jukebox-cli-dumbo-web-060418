@@ -21,6 +21,10 @@ def help
 - play : lets you choose a song to play
 - exit : exits this program"
 end
+
+def list
+  
+end
 #puts "Enter your name:"
 #users_name = gets.chomp 
 #puts say_hello(users_name)
