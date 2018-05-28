@@ -39,7 +39,8 @@ def play(ar)
     puts "Playing #{song}"
   end
   end
- 
+ if !valid_input
+   puts "Invalid input, please try again"
 end
       
       
