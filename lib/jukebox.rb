@@ -54,7 +54,7 @@ def run(ar)
   help
   puts "Please enter a command:"
   users_input = gets.chomp
-  while users_input != "exit"
+  loop do 
   puts "Please enter a command:"
   users_input = gets.chomp
     case users_input
@@ -67,6 +67,7 @@ def run(ar)
           when "exit"
             exit_jukebox
           end
+          break_if 
         end
 end
       
