@@ -44,6 +44,7 @@ def play(ar)
  if !valid_input
    puts "Invalid input, please try again"
  end
+ end
 
       
       
