@@ -27,6 +27,12 @@ def list(ar)
     puts "#{index+1}. #{song}"
   end
 end
+
+def play(ar)
+  puts "Please enter a song name or number:"
+  song_number = gets.chomp
+  if song_number.is_a? 
+end
 #puts "Enter your name:"
 #users_name = gets.chomp 
 #puts say_hello(users_name)
