@@ -56,7 +56,11 @@ def run(ar)
   puts "Please enter a command:"
   users_input = gets.chomp
     case users_input
-    when 
+    when "list"
+      list(ar)
+      when "play"
+        play(ar)
+        when "help"
 end
       
       
