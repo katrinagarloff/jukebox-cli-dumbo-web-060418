@@ -55,7 +55,8 @@ def run(ar)
   if users_input != "exit"
   puts "Please enter a command:"
   users_input = gets.chomp
-    case 
+    case users_input
+    when 
 end
       
       
